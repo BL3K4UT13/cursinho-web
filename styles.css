@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 0px;
+}

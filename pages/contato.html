@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursinho Web - Contato</title>
+    <link rel="Icon" href="../assets/livros.png">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <p><a href="../index.html">Página Inicial</a> | <a href="disciplinas.html">Disciplinas oferecidas</a> | <a href="contato.html">Entre em contato</a></p>
+    <h1>Dados para Contato:</h1>
+    <div>
+        <label for="tx-nome">Nome Completo:</label> <br>
+        <input type="text" size="75" id="tx-nome" name="Nome">
+    </div>
+    <div>
+        <label for="tx-email">E-mail:</label><br>
+        <input type="email" size="50" id="tx-email" name="email">
+    </div>
+    <p>Qual disciplina te interessa mais?</p>
+    <form method="post">
+        <div>
+            <label for="se-disciplina"></label>
+            <select name="diciplinaInterece" id="se-disciplina">
+                <option value="csharp">C#</option>
+                <option value="java">Java</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="php">PHP</option>
+                <option value="ruby">Ruby</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Quais linguagens você conhece?</legend>
+                <input type="checkbox" name="linguagens" id="cb-csharp"><label for="cb-csharp">C#</label><br> 
+                <input type="checkbox" name="linguagens" id="cb-java"><label for="cb-java">Java</label><br>
+                <input type="checkbox" name="linguagens" id="cb-javascript"><label for="cb-javascript">JavaScript</label><br>
+                <input type="checkbox" name="linguagens" id="cb-python"><label for="cb-python">Python</label><br>
+                <input type="checkbox" name="linguagens" id="cb-php"><label for="cb-php">PHP</label><br>
+                <input type="checkbox" name="linguagens" id="cb-ruby"><label for="cb-ruby">Ruby</label><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Onde você conheceu o Cursinho Web?</legend>
+                <input type="radio" name="conheceu" id="ra-amigos"><label for="ra-amigos">Amigos</label><br>
+                <input type="radio" name="conheceu" id="ra-google"><label for="ra-google">Google</label><br>
+                <input type="radio" name="conheceu" id="ra-youtube"><label for="ra-youtube">Youtube</label><br>
+                <input type="radio" name="conheceu" id="ra-instagram"><label for="ra-instagram">Instagram</label><br>
+            </fieldset>
+        </div>
+        <div>
+            <br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+<footer>
+    <p>Cursinho Web - Todos os direitos reservados</p>
+    <p>Contato: <a href="https://www.google.com/intl/pt-BR/gmail/about/">email@provedor.com</a></p>
+</footer>
+</html>
